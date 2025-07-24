@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
-</aiml>
+
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I'm your virtual career advisor. Are you interested in learning about computing jobs?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <template>Great! Can you tell me what area of computing interests you most? AI, Software Development, Cybersecurity, Data Analysis, or Cloud Computing?</template>
+  </category>
+
+  <category>
+    <pattern>SOFTWARE DEVELOPMENT</pattern>
+    <template>You may enjoy working as a Software Developer. Would you like to know more?</template>
+  </category>
+
+  <category>
+    <pattern>DATA ANALYSIS</pattern>
+    <template>You might enjoy a role as a Data Analyst. Would you like more details?</template>
+  </category>
+
+  <category>
+    <pattern>CYBERSECURITY</pattern>
+    <template>Consider becoming a Cybersecurity Analyst. Want to learn what they do?</template>
+  </category>
+
+  <category>
+    <pattern>AI</pattern>
+    <template>An AI/ML Engineer role could be a great fit. Would you like more information?</template>
+  </category>
+
+  <category>
+    <pattern>CLOUD COMPUTING</pattern>
+    <template>You could consider a career as a Cloud Solutions Architect. Want to hear more?</template>
+  </category>
+
+  <category>
+    <pattern>MORE DETA
